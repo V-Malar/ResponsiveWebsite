@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>SHIN RESTAURANT</title>
+  <link rel="icon" href="/images/chef.jpg" type="image/icon type">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+  <div class="main-header">
+    <div><i class="fa-solid fa-location-dot" style="color: #ff0000;"></i>123 Main Street, Uni 21, New York City
+    </div>
+    <div><i class="fa-solid fa-phone" style="color: #36511f;"></i>+38 (012) 34 56 789</div>
+  </div>
+  <div class="header"><br />
+    <img src="./images/chef.gif" class="h-img" width="150px" height="150px" />
+    <a class="logo">SHIN<br />RESTAURANT</a>
+    <div class="header-right">
+      <a class="active" href="#home">HOME</a>
+      <div class="dropdown">
+        <button class="dropbtn"> OUR MENU</button>
+        <div class="dropdown-content">
+          <a href="special.html">SPECIAL</a>
+          <a href="pizza.html">PIZZA</a>
+          <a href="salad.html">SALADS</a>
+          <a href="desserts.html">DESSERTS</a>
+        </div>
+      </div>
+      <a href="#contact">REVIEW</a>
+      <a href="#about">CONTACT US</a>
+    </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner img-content">
+      <h1 class="h1">Eat Healthy!.. Stay Healthy!..</h1>
+      <div class="carousel-item active">
+        <img src="./images/i1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/i2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/i3.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br />
+  <section id="contact">
+    <div class="initials">
+      <p style="font-weight: 800; font-size: x-large;">Alice Banks</p>
+      <div class="rating">
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+      </div>
+      <div class="review-description">
+        I recommend to everyone! I would like to come back here again and again.
+        <div class="review-details">
+          <div class="review-date">Feb 13, 2021
+            <i class="fas fa-share-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="initials">
+      <p style="font-weight: 800; font-size: x-large;">Johny Dep</p>
+      <div class="rating">
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+      </div>
+      <div class="review-description">
+        Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert.
+        <div class="review-details">
+          <div class="review-date">Jun 23, 2018
+            <i class="fas fa-share-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="initials">
+      <p style="font-weight: 800; font-size: x-large;">Marie Jones</p>
+      <div class="rating">
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+      </div>
+      <div class="review-description">
+        The ambiance is very charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great
+        recommendations.
+        <div class="review-details">
+          <div class="review-date">Aug 21, 2021
+            <i class="fas fa-share-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="initials">
+      <p style="font-weight: 800; font-size: x-large;">Alice Skara</p>
+      <div class="rating">
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+        <i id='one' class="fas fa-star checked"></i>
+      </div>
+      <div class="review-description">
+        Food is pretty good, this place is great! Atmosphere is chill and cool but the staff is also really friendly.
+        <div class="review-details">
+          <div class="review-date">May 22, 2023
+            <i class="fas fa-share-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br />
+  <section id="about">
+    <div class="initials">
+      <h3>CONTACT US</h3>
+      <hr style="color: rgb(255, 255, 255);" />
+      <pre>123 Main Street, Uni 21, New York City
+        +38 (012) 34 56 789
+        Mon - Fri: 08:00 - 22:00
+        Sat - Sun: 10:00 - 23:00</pre>
+    </div>
+    <div class="initials">
+      <h3>FOLLOW US</h3>
+      <hr style="color: rgb(255, 255, 255);" />
+      <p>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" title="facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"
+            title="instagram"></i></a>
+        <a href="https://www.yelp.com/" target="_blank"><i class="fa-brands fa-yelp" title="yelp"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter" title="twitter"></i></a></i>
+      </p>
+    </div>
+  </section>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+  <footer>
+    <p>Copyright © 2022 Cristiano. All rights reserved.</p>
+  </footer>
+  <script>
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    var mouse = { x: 0, y: 0 };
+    var h1 = document.querySelector('h1');
+
+    document.addEventListener('mousemove', function (e) {
+      mouse.x = e.clientX || e.pageX;
+      mouse.y = e.clientY || e.pageY
+      var posX = parseInt((mouse.x) - (window.innerWidth / 2));
+      var posY = parseInt((mouse.y) - (window.innerHeight / 2));
+
+      TweenMax.to(h1, 0, { textShadow: posX / -100 + "px " + posY / -50 + "px 4px #444" });
+    }, false);
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+</body>
+
+</html>

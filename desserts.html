@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="icon" href="/images/chef.jpg" type="image/icon type">
+</head>
+
+<body class="bg">
+  <div class="header">
+    <img src="./images/chef.gif" class="h-img" width="150px" height="150px" />
+    <a class="logo">SHIN<br />RESTAURANT</a>
+  </div>
+  <article class="product-card">
+    <div class="product-card__promotion">
+      <span>50% off</span>
+      <img src="images/dessert1.jpeg" />
+    </div>
+    <div class="star">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    <div class=" menu menu1">
+      <label id="food1">Strawberry Shake</label><br />
+      <span>$</span><label id="price1">550</label><br />
+      <button id="1" onclick="order(this.id)">ORDER NOW</button>
+    </div>
+  </article>
+  <article class="product-card">
+    <div class="product-card__promotion">
+      <span>50% off</span>
+      <img src="images/dessert2.jpg" />
+    </div>
+    <div class="menu menu2">
+      <label id="food2">Vanila Kulfi</label><br />
+      <span>$</span><label id="price2">200</label><br />
+      <button id="2" onclick="order(this.id)">ORDER NOW</button>
+    </div>
+    <div class="star">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+  </article>
+  <article class="product-card">
+    <div class="product-card__promotion">
+      <span>50% off</span>
+      <img src="images/dessert3.jpg" />
+    </div>
+    <div class="menu menu3">
+      <label id="food3">Ice-cream Cookies</label><br />
+      <span>$</span><label id="price3">250</label><br />
+      <button id="3" onclick="order(this.id)">ORDER NOW</button>
+    </div>
+    <div class="star">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+  </article>
+  <div class="orderdetails">
+  </div>
+  <script src="/JS/menu.js"></script>
+</body>
+
+</html>
